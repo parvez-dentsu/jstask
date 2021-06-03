@@ -1,0 +1,37 @@
+.container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.col{
+    padding-top: 30px;
+}
+.new_add h5{
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+.new_add p{
+    font-size: 36px;
+    color: black;
+}
+.new_add2 h5{
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+.new_add2 p{
+    font-size: 36px;
+    color: black;
+}
+.new_add3 p{
+     
+    font-size: 36px;
+}
+.new_add3 h5{
+    font-size: 44px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+.productlist{
+    background-color: burlywood;
+}

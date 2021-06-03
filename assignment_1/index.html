@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Product Form</title>
+</head>
+
+<body>
+    <h2>Product Description form</h2>
+    <form action="backend.php">
+        
+        <div class="div1">
+            <label for="name"> Product Name</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <div class="div1">
+            Product Description:<textarea name="myText" ></textarea>
+        </div>
+        <div class="div1">
+           <p> Support team:</p>
+           <a href="www.gmail.com" target="_blank">support@product.com</a>
+        </div>
+        <div class="div1">
+           <p>Seller contact</p>
+           <a href="phonecall" target="_blank">8186445850</a>
+        </div>
+        <div class="div1">
+           Product Lunch Date: <input type="date" name="Enter product date">
+        </div>
+        <div class="div1">
+        <p>upload product image</p>
+        <input type="file">
+        </div>
+        <div class="div1">
+        <p>Product Colour</p>
+            <input type="checkbox">red <input type="checkbox">blue <input type="checkbox">green
+        </div class="div1">
+         <form>
+             <p>Product Size</p>
+            <select name="Product size">
+                <option>small</option>
+                <option>medium</option>
+                <option>large</option>
+                <option>xlarge</option>
+            </select>
+        </form>
+        <div class="div1">
+            in-stock:
+             yes <input type="radio" name="stock"required>
+             No <input type="radio"name="stock"required>
+        </div>
+        <div class="div1">
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+
+</html>
+
+</body>
+</html>

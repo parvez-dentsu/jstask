@@ -1,0 +1,12 @@
+.new_contanier{
+    display: flex;
+    margin: 20px;
+}
+.sect_1{
+    border: 1px solid;
+    width: 33.33%;
+    
+}.sect_2{
+    margin: 2%;
+    align-items: center;
+}
